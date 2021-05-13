@@ -19,12 +19,12 @@ int main(){
        std::cin>>choix;
        switch (choix) {
            case 1:{
-               string nom="";
+               string nomMachine="";
                int ValeurEspaceMachine=0;
                int CoutLocation=0;
                std::cout<<"veuillez introduire le nom  de l'esppace a calculer sans espace svp:"<<endl;
-               std::cin>>nom;
-               setNom (string nom);
+               std::cin>>nomMachine;
+               setNom (string nomMachine);
                std::cout<<"veuillez introduire la valeur de l'esppace a calculer en metres-carres (m²):"<<endl;
                std::cin>>ValeurEspaceMachine;
                setValeurEspaceMachine(int ValeurEspaceMachine);
@@ -33,11 +33,43 @@ int main(){
                setCoutLocation(int CoutLocation);
                }
                break;
-           case 2:{}
+           case 2:{
+               string nomMachine="";
+               int VoltageMachine=0;
+               int AmpirageMachine=0;
+               int CoutElectricite=0;
+               std::cout<<"veuillez introduire le nom  de l'esppace a calculer sans espace svp:"<<endl;
+               std::cin>>nomMachine;
+               setNom (string nomMachine);
+               std::cout<<"veuillez introduire le voltage  de la machine en volts (V):"<<endl;
+               std::cin>>VoltageMchine;
+               setVoltageMachine(int VoltageMachine);
+               std::cout<<"veuillez introduire  l'amperage de la machine en amperes (A):"<<endl;
+               std::cin>>AmpirageMchine;
+               setAmpirageMachine(int AmpirageMachine);
+               std::cout<<"veuillez introduire le cout en sous de l'electricite par kilowatt-heures (¢/kWh)"<<endl;
+               std::cin>>CoutElectricite;
+               setCoutElectricite(int CoutElectricite);
+           }
                break;
-           case 3:{}
+           case 3:{
+               string nomMachine="";
+               float DebitMachine=0;
+               int CoutEau=0;
+               std::cout<<"veuillez introduire le nom  de l'esppace a calculer sans espace svp:"<<endl;
+               std::cin>>nomMachine;
+               setNom (string nomMachine);
+               std::cout<<"veuillez introduire le debit en litres par seconde (L/s):"<<endl;
+               std::cin>>DebitMachine;
+               setDebitMachine(float DebitMachine);
+               std::cout<<"veuillez introduire le cout de l'eau en sous par litre (¢/L)"<<endl;
+               std::cin>>CoutEau;
+               setCoutEau(int CoutEau);
+                          }
                break;
-           case 4:{}
+           case 4:{
+               std::cout<<getNom() <<":"<<getCoutLocation() <<"$"<<endl;
+           }
                break;
            case 5:{}
                fin= true ;

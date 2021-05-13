@@ -3,12 +3,10 @@
 #include <string>
 
 class Cout {
-    string nom;
+    string nomMachine;
 public:
-    Cout(string nom);
+    Cout(string nomMachine);
     string getNom();
-    void seNom(string nom);
-
-
+    void setNom(string nomMachine);
 };
 #endif //RELEASE_COUT_H

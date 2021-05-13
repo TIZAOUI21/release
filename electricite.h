@@ -2,8 +2,19 @@
 #define RELEASE_ELECTRICITE_H
 #include <string>
 
-class electricite {
-
+class Electricite {
+private:
+   int VoltageMachine;
+   int AmpirageMchine;
+   int CoutElectricite;
+public:
+        Electricite(int VoltageMachine,int AmpirageMchine,int CoutElectricite);
+        int getVoltageMachine();
+        void setVoltageMachine(int VoltageMachine);
+        int getAmpirageMachine();
+        void setAmpirageMachine(int AmpirageMchine);
+        int getCoutElectricite();
+        void setCoutElectricite(int CoutElectricite);
 };
 
 

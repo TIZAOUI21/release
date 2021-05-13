@@ -9,9 +9,9 @@ private:
 public:
     Location(int ValeurEspaceMachine,int CoutLocation);
     int getValeurEspaceMachine();
-    int setValeurEspaceMachine(int CoutLocation);
+    void setValeurEspaceMachine(int CoutLocation);
     int getCoutLocation();
-    int setCoutLocation(int CoutLocation);
+    void setCoutLocation(int CoutLocation);
 };
 
 #endif //RELEASE_LOCATION_H
