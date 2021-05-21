@@ -1,0 +1,3 @@
+D:/Clioncode/release/cmake-build-debug/CMakeFiles/release.dir
+D:/Clioncode/release/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Clioncode/release/cmake-build-debug/CMakeFiles/rebuild_cache.dir
