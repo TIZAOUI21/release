@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Clioncode/release/cout.cpp
+cout.h
+D:/Clioncode/release/cout.h
+string
+-
+
+D:/Clioncode/release/cout.h
+string
+-
+
+D:/Clioncode/release/eau.cpp
+eau.h
+D:/Clioncode/release/eau.h
+string
+-
+
+D:/Clioncode/release/eau.h
+string
+-
+
+D:/Clioncode/release/electricite.cpp
+string
+-
+
+D:/Clioncode/release/location.h
+string
+-
+
+D:/Clioncode/release/main.cpp
+iostream
+-
+location.h
+D:/Clioncode/release/location.h
+string
+-
+
