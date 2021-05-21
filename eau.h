@@ -1,8 +1,8 @@
 #ifndef RELEASE_EAU_H
 #define RELEASE_EAU_H
 #include <string>
-
-class eau {
+#include "cout.h"
+class eau : public cout{
 private:
     float DebitMachine;
     int CoutEau;

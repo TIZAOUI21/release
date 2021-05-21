@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "location.h"
 #include <string>
 #include "cout.h"
@@ -10,6 +11,7 @@
 void presenterMenu();
 
 int main(){
+    double tableau [250];
    int choix=0;
    bool fin = false ;
    while (!fin){
@@ -18,13 +20,14 @@ int main(){
        std::cout<<"veuillez faire votre choix: ";
        std::cin>>choix;
        switch (choix) {
+
            case 1:{
-               string nomMachine="";
+               std::string nomMachine="";
                int ValeurEspaceMachine=0;
                int CoutLocation=0;
                std::cout<<"veuillez introduire le nom  de l'esppace a calculer sans espace svp:"<<endl;
                std::cin>>nomMachine;
-               setNom (string nomMachine);
+               setNom (std::string string nomMachine);
                std::cout<<"veuillez introduire la valeur de l'esppace a calculer en metres-carres (m²):"<<endl;
                std::cin>>ValeurEspaceMachine;
                setValeurEspaceMachine(int ValeurEspaceMachine);
@@ -34,13 +37,13 @@ int main(){
                }
                break;
            case 2:{
-               string nomMachine="";
+               std::string nomMachine="";
                int VoltageMachine=0;
                int AmpirageMachine=0;
                int CoutElectricite=0;
                std::cout<<"veuillez introduire le nom  de l'esppace a calculer sans espace svp:"<<endl;
                std::cin>>nomMachine;
-               setNom (string nomMachine);
+               setNom (std::std::string string nomMachine);
                std::cout<<"veuillez introduire le voltage  de la machine en volts (V):"<<endl;
                std::cin>>VoltageMchine;
                setVoltageMachine(int VoltageMachine);
@@ -53,12 +56,12 @@ int main(){
            }
                break;
            case 3:{
-               string nomMachine="";
+               std::string nomMachine="";
                float DebitMachine=0;
                int CoutEau=0;
                std::cout<<"veuillez introduire le nom  de l'esppace a calculer sans espace svp:"<<endl;
                std::cin>>nomMachine;
-               setNom (string nomMachine);
+               setNom (std::std::string string nomMachine);
                std::cout<<"veuillez introduire le debit en litres par seconde (L/s):"<<endl;
                std::cin>>DebitMachine;
                setDebitMachine(float DebitMachine);
@@ -68,7 +71,7 @@ int main(){
                           }
                break;
            case 4:{
-               std::cout<<getNom() <<":"<<getCoutLocation() <<"$"<<endl;
+               std::cout<<getNom() <<":"<<getCoutLocation() <<"     $"<<endl;
            }
                break;
            case 5:{}

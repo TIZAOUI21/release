@@ -1,8 +1,9 @@
 #ifndef RELEASE_LOCATION_H
 #define RELEASE_LOCATION_H
 #include <string>
+#include "cout.h"
 
-class Location {
+class Location : public cout {
 private:
     int ValeurEspaceMachine;
     int CoutLocation;

@@ -2,10 +2,10 @@
 #define RELEASE_COUT_H
 #include <string>
 
-class Cout {
+class cout {
     string nomMachine;
 public:
-    Cout(string nomMachine);
+    cout(string nomMachine);
     string getNom();
     void setNom(string nomMachine);
 };

@@ -1,8 +1,8 @@
 #ifndef RELEASE_ELECTRICITE_H
 #define RELEASE_ELECTRICITE_H
 #include <string>
-
-class Electricite {
+#include "cout.h"
+class Electricite : public cout {
 private:
    int VoltageMachine;
    int AmpirageMchine;
