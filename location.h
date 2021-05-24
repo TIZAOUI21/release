@@ -1,21 +1,20 @@
-#ifndef RELEASE_LOCATION_H
-#define RELEASE_LOCATION_H
+#pragma once
 #include <string>
 #include "cout.h"
 
-class Location : public cout
+class location : public cout
         {
 private:
-    int ValeurEspaceMachine;
+     int ValeurEspaceMachine;
     int CoutLocation;
 public:
-    Location(int ValeurEspaceMachine,int CoutLocation);
+    location();
+    location(std::string nomMachine, int ValeurEspaceMachine,int CoutLocation);
+    ~location();
     int getValeurEspaceMachine();
     void setValeurEspaceMachine(int CoutLocation);
     int getCoutLocation();
     void setCoutLocation(int CoutLocation);
-    Location::cout(nomMachine) {this->nomMachine};
-    double calculercout();
+     double calculercout();
 };
 
-#endif //RELEASE_LOCATION_H

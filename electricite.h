@@ -1,5 +1,4 @@
-#ifndef RELEASE_ELECTRICITE_H
-#define RELEASE_ELECTRICITE_H
+#pragma once
 #include <string>
 #include "cout.h"
 
@@ -10,16 +9,14 @@ private:
    int AmpirageMchine;
    int CoutElectricite;
 public:
-        Electricite(int VoltageMachine,int AmpirageMchine,int CoutElectricite);
+        Electricite(std::string nomMachine, int VoltageMachine,int AmpirageMchine,int CoutElectricite);
         int getVoltageMachine();
+       ~Electricite();
         void setVoltageMachine(int VoltageMachine);
         int getAmpirageMachine();
         void setAmpirageMachine(int AmpirageMchine);
         int getCoutElectricite();
         void setCoutElectricite(int CoutElectricite);
-        Electricite::cout(nomMachine) {this->nomMachine};
-    double calculercout();
+         double calculercout();
 };
 
-
-#endif //RELEASE_ELECTRICITE_H

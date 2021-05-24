@@ -4,9 +4,11 @@ using namespace std;
 
 
 
-eau::eau(float DebitMachine, int CoutEau):cout(nomMachine){
+eau::eau(std::string nomMachine, float DebitMachine, int CoutEau) :cout(nomMachine){
 this->DebitMachine=DebitMachine;
 this->CoutEau=CoutEau;
+}
+eau::~eau(){
 }
 float eau::getDebitMachine(){
     return this->DebitMachine;
@@ -20,6 +22,7 @@ int eau::getCoutEau(){
 void eau::setCoutEau(int CoutEau) {
      this->CoutEau=CoutEau;
 }
-double calculercout(){
+double eau::calculercout(){
+    return 0.0;
     }
 

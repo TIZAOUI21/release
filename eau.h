@@ -3,19 +3,18 @@
 #include <string>
 #include "cout.h"
 
-
 class eau : public cout{
 private:
     float DebitMachine;
     int CoutEau;
 public:
     eau();
-    eau(float DebitMachine, int CoutEau);
+    eau(std::string nomMachine, float DebitMachine, int CoutEau);
+    ~eau();
     float getDebitMachine();
     void setDebitMachine(float DebitMachine);
     int getCoutEau();
     void setCoutEau(int CoutEau);
-    eau::cout(nomMachine) {this->nomMachine};
-    double calculercout();
+        double calculercout();
 };
 #endif //RELEASE_EAU_H

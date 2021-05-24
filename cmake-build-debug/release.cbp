@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Clioncode/release/Location.cpp">
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="D:/Clioncode/release/Location.h">
+			<Option target="release"/>
+		</Unit>
 		<Unit filename="D:/Clioncode/release/cout.cpp">
 			<Option target="release"/>
 		</Unit>

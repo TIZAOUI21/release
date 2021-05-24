@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/release.dir/Location.cpp.obj"
   "CMakeFiles/release.dir/cout.cpp.obj"
   "CMakeFiles/release.dir/eau.cpp.obj"
   "CMakeFiles/release.dir/electricite.cpp.obj"

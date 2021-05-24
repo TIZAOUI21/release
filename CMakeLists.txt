@@ -3,4 +3,4 @@ project(release)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(release main.cpp cout.cpp cout.h location.h electricite.cpp electricite.h eau.cpp eau.h)
+add_executable(release main.cpp cout.cpp cout.h location.h location.cpp electricite.cpp electricite.h eau.cpp eau.h)

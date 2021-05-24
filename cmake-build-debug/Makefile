@@ -141,6 +141,33 @@ release/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\release.dir\build.make CMakeFiles/release.dir/build
 .PHONY : release/fast
 
+Location.obj: Location.cpp.obj
+
+.PHONY : Location.obj
+
+# target to build an object file
+Location.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\release.dir\build.make CMakeFiles/release.dir/Location.cpp.obj
+.PHONY : Location.cpp.obj
+
+Location.i: Location.cpp.i
+
+.PHONY : Location.i
+
+# target to preprocess a source file
+Location.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\release.dir\build.make CMakeFiles/release.dir/Location.cpp.i
+.PHONY : Location.cpp.i
+
+Location.s: Location.cpp.s
+
+.PHONY : Location.s
+
+# target to generate assembly for a file
+Location.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\release.dir\build.make CMakeFiles/release.dir/Location.cpp.s
+.PHONY : Location.cpp.s
+
 cout.obj: cout.cpp.obj
 
 .PHONY : cout.obj
@@ -258,6 +285,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... release
+	@echo ... Location.obj
+	@echo ... Location.i
+	@echo ... Location.s
 	@echo ... cout.obj
 	@echo ... cout.i
 	@echo ... cout.s

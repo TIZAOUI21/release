@@ -9,6 +9,6 @@ class cout {
      virtual ~cout();
      std::string getNom();
      void setNom(std::string nomMachine);
-     virtual double calculercout() ;
+     virtual double calculercout()=0 ;
 };
 

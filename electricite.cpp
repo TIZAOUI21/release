@@ -3,7 +3,7 @@ using namespace std;
 #include "electricite.h"
 
 
-Electricite::Electricite(int VoltageMachine,int AmpirageMchine,int CoutElectricite) : cout(nomMachine){
+Electricite::Electricite(std::string nomMachine, int VoltageMachine,int AmpirageMchine,int CoutElectricite) : cout(nomMachine){
 this->VoltageMachine=VoltageMachine;
 this->AmpirageMchine=AmpirageMchine;
 this->CoutElectricite=CoutElectricite;
@@ -20,11 +20,14 @@ int Electricite::getAmpirageMachine(){
 void Electricite::setAmpirageMachine(int AmpirageMachine) {
      this->AmpirageMchine=AmpirageMachine;
 }
+Electricite::~Electricite(){
+}
 int Electricite::getCoutElectricite(){
     return this->CoutElectricite;
 }
 void Electricite::setCoutElectricite(int CoutElectricite) {
      this->CoutElectricite;
 }
-double calculercout(){
+double Electricite::calculercout(){
+    return 0.0;
 }

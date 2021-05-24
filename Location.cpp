@@ -1,23 +1,25 @@
-#include "Location.h"
+#include "location.h"
 using namespace std;
 #include <string>
 
-location::Location (int ValeurEspaceMachine,int CoutLocation) : cout(nomMachine){
+location::location (std::string nomMachine, int ValeurEspaceMachine,int CoutLocation) : cout(nomMachine){
     this->ValeurEspaceMachine=ValeurEspaceMachine;
     this->CoutLocation=CoutLocation;
 }
-int Location::getValeurEspaceMachine(){
+location::~location(){};
+int location::getValeurEspaceMachine(){
     return this->CoutLocation;
 }
-int Location::setValeurEspaceMachine(int CoutLocation) {
-    return this->CoutLocation=CoutLocation;
-}
-int Location::getCoutLocation() {
+//int location::setValeurEspaceMachine(int CoutLocation) {
+//    return this->CoutLocation=CoutLocation;
+//}
+int location::getCoutLocation() {
     return this->CoutLocation;
 }
-int Location::setCoutLocation(int CoutLocation) {
-        return this->CoutLocation=CoutLocation;
-    }
-double calculercout(){
+//int location::setCoutLocation(int CoutLocation) {
+//        return this->CoutLocation=CoutLocation;
+//    }
+double location::calculercout(){
+    return 0.0;
 }
 
