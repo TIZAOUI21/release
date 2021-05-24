@@ -11,11 +11,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02d0376b-9a8a-4f33-91f0-fd545d1af3d1" name="Default Changelist" comment="cinfigutation des attribus de classes">
+    <list default="true" id="02d0376b-9a8a-4f33-91f0-fd545d1af3d1" name="Default Changelist" comment="mise en forme heritage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Location.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Location.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/eau.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/eau.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cout.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cout.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cout.h" beforeDir="false" afterPath="$PROJECT_DIR$/cout.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eau.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/eau.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eau.h" beforeDir="false" afterPath="$PROJECT_DIR$/eau.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electricite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/electricite.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/electricite.h" beforeDir="false" afterPath="$PROJECT_DIR$/electricite.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/location.h" beforeDir="false" afterPath="$PROJECT_DIR$/location.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -76,6 +88,7 @@
       <workItem from="1620847655470" duration="18454000" />
       <workItem from="1621571030157" duration="510000" />
       <workItem from="1621572996117" duration="2743000" />
+      <workItem from="1621829102086" duration="12977000" />
     </task>
     <task id="LOCAL-00001" summary="creation des classe">
       <created>1620851206531</created>

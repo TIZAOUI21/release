@@ -3,7 +3,8 @@
 #include <string>
 #include "cout.h"
 
-class Location : public cout {
+class Location : public cout
+        {
 private:
     int ValeurEspaceMachine;
     int CoutLocation;
@@ -13,6 +14,8 @@ public:
     void setValeurEspaceMachine(int CoutLocation);
     int getCoutLocation();
     void setCoutLocation(int CoutLocation);
+    Location::cout(nomMachine) {this->nomMachine};
+    double calculercout();
 };
 
 #endif //RELEASE_LOCATION_H

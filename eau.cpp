@@ -4,17 +4,22 @@ using namespace std;
 
 
 
-
-int eau::getDebitMachine(){
+eau::eau(float DebitMachine, int CoutEau):cout(nomMachine){
+this->DebitMachine=DebitMachine;
+this->CoutEau=CoutEau;
+}
+float eau::getDebitMachine(){
     return this->DebitMachine;
 }
-int eau::setDebitMachine(float DebitMachine) {
-    return this->DebitMachine=DebitMachine;
+void eau::setDebitMachine(float DebitMachine) {
+     this->DebitMachine=DebitMachine;
 }
 int eau::getCoutEau(){
     return this->CoutEau;
 }
-int eau::setgetCoutEau(int CoutEau) {
-    return this->CoutEau=CoutEau;
+void eau::setCoutEau(int CoutEau) {
+     this->CoutEau=CoutEau;
 }
+double calculercout(){
+    }
 

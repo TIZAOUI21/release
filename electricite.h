@@ -2,7 +2,9 @@
 #define RELEASE_ELECTRICITE_H
 #include <string>
 #include "cout.h"
+
 class Electricite : public cout {
+
 private:
    int VoltageMachine;
    int AmpirageMchine;
@@ -15,6 +17,8 @@ public:
         void setAmpirageMachine(int AmpirageMchine);
         int getCoutElectricite();
         void setCoutElectricite(int CoutElectricite);
+        Electricite::cout(nomMachine) {this->nomMachine};
+    double calculercout();
 };
 
 

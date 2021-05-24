@@ -2,21 +2,29 @@ using namespace std;
 //#include <string>
 #include "electricite.h"
 
-int electricite::getVoltageMachine(){
+
+Electricite::Electricite(int VoltageMachine,int AmpirageMchine,int CoutElectricite) : cout(nomMachine){
+this->VoltageMachine=VoltageMachine;
+this->AmpirageMchine=AmpirageMchine;
+this->CoutElectricite=CoutElectricite;
+}
+int Electricite::getVoltageMachine(){
     return this->VoltageMachine;
 }
-int electricite::setVoltageMachine(int VoltageMachine) {
-    return this->VoltageMachine=VoltageMachine;
+void Electricite::setVoltageMachine(int VoltageMachine) {
+     this->VoltageMachine=VoltageMachine;
 }
-int electricite::getAmpirageMachinee(){
-    return this->AmpirageMachine;
+int Electricite::getAmpirageMachine(){
+    return this->AmpirageMchine;
 }
-int electricite::setAmpirageMachine(int AmpirageMachine) {
-    return this->AmpirageMachine=AmpirageMachine;
+void Electricite::setAmpirageMachine(int AmpirageMachine) {
+     this->AmpirageMchine=AmpirageMachine;
 }
-int electricite::getCoutElectricite(){
+int Electricite::getCoutElectricite(){
     return this->CoutElectricite;
 }
-int electricite::setCoutElectricite(int CoutElectricite) {
-    return this->CoutElectricite;
+void Electricite::setCoutElectricite(int CoutElectricite) {
+     this->CoutElectricite;
+}
+double calculercout(){
 }

@@ -1,12 +1,14 @@
-#ifndef RELEASE_COUT_H
-#define RELEASE_COUT_H
+#pragma once
 #include <string>
 
 class cout {
-    string nomMachine;
-public:
-    cout(string nomMachine);
-    string getNom();
-    void setNom(string nomMachine);
+    private:
+    std::string nomMachine;
+    public:
+     cout(std::string nomMachine);
+     virtual ~cout();
+     std::string getNom();
+     void setNom(std::string nomMachine);
+     virtual double calculercout() ;
 };
-#endif //RELEASE_COUT_H
+

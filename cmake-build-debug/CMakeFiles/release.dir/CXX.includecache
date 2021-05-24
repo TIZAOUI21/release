@@ -9,6 +9,12 @@
 D:/Clioncode/release/cout.cpp
 cout.h
 D:/Clioncode/release/cout.h
+Location.h
+D:/Clioncode/release/location.h
+electricite.h
+D:/Clioncode/release/electricite.h
+eau.h
+D:/Clioncode/release/eau.h
 string
 -
 
@@ -25,20 +31,38 @@ string
 D:/Clioncode/release/eau.h
 string
 -
+cout.h
+D:/Clioncode/release/cout.h
 
 D:/Clioncode/release/electricite.cpp
+electricite.h
+D:/Clioncode/release/electricite.h
+
+D:/Clioncode/release/electricite.h
 string
 -
+cout.h
+D:/Clioncode/release/cout.h
 
 D:/Clioncode/release/location.h
 string
 -
+cout.h
+D:/Clioncode/release/cout.h
 
 D:/Clioncode/release/main.cpp
 iostream
 -
-location.h
-D:/Clioncode/release/location.h
 string
 -
+location.h
+D:/Clioncode/release/location.h
+cout.h
+D:/Clioncode/release/cout.h
+location.h
+D:/Clioncode/release/location.h
+electricite.h
+D:/Clioncode/release/electricite.h
+eau.h
+D:/Clioncode/release/eau.h
 
