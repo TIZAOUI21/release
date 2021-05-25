@@ -4,30 +4,17 @@ using namespace std;
 
 
 Electricite::Electricite(std::string nomMachine, int VoltageMachine,int AmpirageMchine,int CoutElectricite) : cout(nomMachine){
-this->VoltageMachine=VoltageMachine;
-this->AmpirageMchine=AmpirageMchine;
-this->CoutElectricite=CoutElectricite;
-}
-int Electricite::getVoltageMachine(){
-    return this->VoltageMachine;
-}
-void Electricite::setVoltageMachine(int VoltageMachine) {
-     this->VoltageMachine=VoltageMachine;
-}
-int Electricite::getAmpirageMachine(){
-    return this->AmpirageMchine;
-}
-void Electricite::setAmpirageMachine(int AmpirageMachine) {
-     this->AmpirageMchine=AmpirageMachine;
+        this->VoltageMachine=VoltageMachine;
+        this->AmpirageMchine=AmpirageMchine;
+        this->CoutElectricite=CoutElectricite;
 }
 Electricite::~Electricite(){
 }
-int Electricite::getCoutElectricite(){
-    return this->CoutElectricite;
-}
-void Electricite::setCoutElectricite(int CoutElectricite) {
-     this->CoutElectricite;
-}
-double Electricite::calculercout(){
-    return 0.0;
+    double Electricite::calculerCout(int nombreJour){
+         double prix;
+         prix = (((double)this->AmpirageMchine * this->VoltageMachine) / 1000.0) * 24 * (CoutElectricite / 100.0);
+         prix= prix * nombreJour;
+         return prix;}
+    void Electricite::afficherCout(){
+         std::cout << this->nomMachine <<"  :  "<<this->calculerCout()<<"$"<<std::endl;
 }

@@ -5,24 +5,18 @@ using namespace std;
 
 
 eau::eau(std::string nomMachine, float DebitMachine, int CoutEau) :cout(nomMachine){
-this->DebitMachine=DebitMachine;
-this->CoutEau=CoutEau;
+    this->DebitMachine=DebitMachine;
+    this->CoutEau=CoutEau;
 }
 eau::~eau(){
 }
-float eau::getDebitMachine(){
-    return this->DebitMachine;
+double eau::calculerCout(int nombreJour){
+    prix = (this->DebitMachine * 86400.0 * 1.0 * ((this->CoutEau) / 100.0))/100;
+    prix =  nombreJour*prix;
+    return prix;
 }
-void eau::setDebitMachine(float DebitMachine) {
-     this->DebitMachine=DebitMachine;
+void eau::afficherCout(){
+    std::cout << this->nomMachine <<":"<<this->calculerCout()<<"$"<<std::endl;
 }
-int eau::getCoutEau(){
-    return this->CoutEau;
-}
-void eau::setCoutEau(int CoutEau) {
-     this->CoutEau=CoutEau;
-}
-double eau::calculercout(){
-    return 0.0;
-    }
+
 

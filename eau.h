@@ -1,5 +1,4 @@
-#ifndef RELEASE_EAU_H
-#define RELEASE_EAU_H
+#pragma once
 #include <string>
 #include "cout.h"
 
@@ -11,10 +10,6 @@ public:
     eau();
     eau(std::string nomMachine, float DebitMachine, int CoutEau);
     ~eau();
-    float getDebitMachine();
-    void setDebitMachine(float DebitMachine);
-    int getCoutEau();
-    void setCoutEau(int CoutEau);
-        double calculercout();
-};
-#endif //RELEASE_EAU_H
+
+    double calculerCout(int nombreJour);
+    void afficherCout();

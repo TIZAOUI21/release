@@ -12,8 +12,13 @@ using namespace std;
     std::string cout::getNom() {
         return this->nomMachine;
     }
-    void cout::setNom(std::string nomMachine){
-    this->nomMachine=nomMachine;}
+double cout::calculerCout(int  nombreJour) {
+        return 0.0;
+    }
+void cout::afficherCout(){
+    std::cout << this->nomMachine <<":"<<this->calculerCout()<<"$"<<std::endl;
+    }
+
 
 
 

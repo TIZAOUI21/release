@@ -7,19 +7,10 @@ location::location (std::string nomMachine, int ValeurEspaceMachine,int CoutLoca
     this->CoutLocation=CoutLocation;
 }
 location::~location(){};
-int location::getValeurEspaceMachine(){
-    return this->CoutLocation;
+    double location::calculerCout(int nombreJour){
+    prix = (((double)this->CoutLocation / 30 * this->ValeurEspaceMachine) / 100.0);
+    prix = prix*nombreJour;
+    }
+    void location::afficherCout() {
+    std::cout << this->nomMachine <<":"<<this->calculerCout()<<"$"<<std::endl;
 }
-//int location::setValeurEspaceMachine(int CoutLocation) {
-//    return this->CoutLocation=CoutLocation;
-//}
-int location::getCoutLocation() {
-    return this->CoutLocation;
-}
-//int location::setCoutLocation(int CoutLocation) {
-//        return this->CoutLocation=CoutLocation;
-//    }
-double location::calculercout(){
-    return 0.0;
-}
-
