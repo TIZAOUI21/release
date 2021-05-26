@@ -11,11 +11,10 @@ using namespace std;
     std::string cout::getNom() {
         return this->nomMachine;
     }
-double cout::calculerCout(int nombreJour) {
+    double cout::calculerCout(int nombreJour) {
         return 0.0;
     }
  void afficherCout(){
-
     }
 
 

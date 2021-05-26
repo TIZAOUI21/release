@@ -10,12 +10,14 @@ Electricite::Electricite(std::string nomMachine, int VoltageMachine,int Ampirage
 }
 Electricite::~Electricite(){
 }
+// fonction pour calculer le cout d'electricite  pour un nombre de jours saie par l'utilisateur
 double Electricite::calculerCout(int nombreJour) {
     double prix;
     prix = (((double)this->AmpirageMchine * this->VoltageMachine) / 1000.0) * 24 * (CoutElectricite / 100.0);
     prix= prix * nombreJour;
     return prix;
     }
+// procedure  pour afficher le nom de la machine et le cout determiner par la fonction  calculerCout
 void Electricite::afficherCout(){
     std::cout << getNom()<<":"<<calculerCout()<<"$"<<std::endl;
 }

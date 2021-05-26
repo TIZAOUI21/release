@@ -10,7 +10,7 @@ void presenterMenu();
 
 int main() {
     int choix = 0;
-    cout *ptr_cout[250];
+    cout* ptr_cout[250];
     int index_ptr_cout = 0;
     bool fin = false;
     while (!fin) {
@@ -18,6 +18,7 @@ int main() {
         std::cout << "veuillez faire votre choix: ";
         std::cin >> choix;
         switch (choix) {
+//         choix numero 1  dans le menu pour  Ajouter le cout de location avec ses informations
             case 1: {
                 std::string nomMachine = "";
                 int ValeurEspaceMachine = 0;
@@ -34,6 +35,7 @@ int main() {
                 index_ptr_cout++;
             }
                 break;
+//         choix numero 2 dans le menu pour  Ajouter le cout en electricite avec ses informations
             case 2: {
                 std::string nomMachine = "";
                 int VoltageMachine = 0;
@@ -52,6 +54,7 @@ int main() {
                 index_ptr_cout++;
             }
                 break;
+//         choix numero 3 dans le menu pour  Ajouter le cout pour la consommation d'eau avec ses informations
             case 3: {
                 std::string nomMachine;
                 float DebitMachine = 0;
@@ -66,37 +69,38 @@ int main() {
                 index_ptr_cout++;
             }
                 break;
+//         choix numero 4 dans le menu pour afficher le compte-rendu d'une machine choisi par l'utilistateur , pour un nombreJour saisie par saise au clavier
             case 4: {
                 int typeMachine = 0;
                 int nombreJour = 0;
-                std::cout
-                        << "veuillez choisir  le type de la machine pour afficher le compte rendu  (1:Location, 2:electricite, 3:eau )"
+                std::cout << "veuillez choisir  le type de la machine pour afficher le compte rendu  (1:Location, 2:electricite, 3:eau )"
                         << std::endl;
                 std::cin >> typeMachine;
                 std::cout << "veuillez introduire le nombre de jour :" << std::endl;
                 std::cin >> nombreJour;
                 if (typeMachine = 1) {
-                    location L;
+                    location Location;
                     for (int i = 0; i < index_ptr_cout; ++i) {
                         ptr_cout[i]->calculerCout(nombreJour);
-                        L.afficherCout();
+                        Location.afficherCout();
                     }
                 }
                 if (typeMachine = 2) {
-                    Electricite E;
+                    Electricite Electricite;
                     for (int i = 0; i < index_ptr_cout; ++i) {
                         ptr_cout[i]->calculerCout(nombreJour);
-                        E.afficherCout();
+                        Electricite.afficherCout();
                     }
                 }
                 if (typeMachine = 3) {
-                    eau e;
+                    eau eau;
                     for (int i = 0; i < index_ptr_cout; ++i) {
-                        e.afficherCout();
+                        eau.afficherCout();
                     }
                 }
             }
                     break;
+//                choix numero 5 pour quitter le menu
                     case 5: {
                         fin = true;
                         std::cout << "Au revoir !";
@@ -104,7 +108,6 @@ int main() {
                     break;
                     default:
                         std::cout << "Mauvais choix!";
-
             }
                 for (int i = 0; i < (index_ptr_cout - 1); i++) {
                     delete ptr_cout[i];
