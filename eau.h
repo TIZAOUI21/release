@@ -12,6 +12,4 @@ public:
     ~eau();
     double calculerCout(int nombreJour);
     void afficherCout();
-
-
 };

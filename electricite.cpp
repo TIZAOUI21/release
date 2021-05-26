@@ -17,5 +17,5 @@ double Electricite::calculerCout(int nombreJour) {
     return prix;
     }
 void Electricite::afficherCout(){
-    std::cout << getNom()<<":"<<"calculerCout()"<<"$"<<std::endl;
-};
+    std::cout << getNom()<<":"<<calculerCout()<<"$"<<std::endl;
+}

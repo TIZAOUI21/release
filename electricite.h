@@ -13,7 +13,7 @@ public:
 
     ~Electricite();
 
-    double calculerCout(int nombreJour);;
+    double calculerCout(int nombreJour);
 
     void afficherCout( ) ;
 };

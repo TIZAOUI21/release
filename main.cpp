@@ -24,11 +24,9 @@ int main() {
                 int CoutLocation = 0;
                 std::cout << "veuillez introduire le nom  de l'esppace a calculer sans espace svp:" << std::endl;
                 std::cin >> nomMachine;
-                //               ptr_cout[index_ptr_cout]->setNom();
                 std::cout << "veuillez introduire la valeur de l'esppace a calculer en metres-carres :" << std::endl;
                 std::cin >> ValeurEspaceMachine;
-                std::cout
-                        << "veuillez introduire le cout en sous pour la location d'un metre-carre pour une periode de 30 jours:"
+                std::cout<< "veuillez introduire le cout en sous pour la location d'un metre-carre pour une periode de 30 jours:"
                         << std::endl;
                 std::cin >> CoutLocation;
                 ptr_cout[index_ptr_cout] = new location(nomMachine, ValeurEspaceMachine, CoutLocation);
@@ -71,28 +69,49 @@ int main() {
             case 4: {
                 int typeMachine = 0;
                 int nombreJour = 0;
-                std::cout<< "veuillez choisir  le type de la machine pour afficher le compte rendu  (1:Location, 2:electricite, 3:eau )"<< std::endl;
+                std::cout
+                        << "veuillez choisir  le type de la machine pour afficher le compte rendu  (1:Location, 2:electricite, 3:eau )"
+                        << std::endl;
                 std::cin >> typeMachine;
                 std::cout << "veuillez introduire le nombre de jour :" << std::endl;
                 std::cin >> nombreJour;
-                ptr_cout[typeMachine]->calculerCout(nombreJour);
-                ptr_cout[typeMachine]->afficherCout();
+                if (typeMachine = 1) {
+                    location L;
+                    for (int i = 0; i < index_ptr_cout; ++i) {
+                        ptr_cout[i]->calculerCout(nombreJour);
+                        L.afficherCout();
+                    }
+                }
+                if (typeMachine = 2) {
+                    Electricite E;
+                    for (int i = 0; i < index_ptr_cout; ++i) {
+                        ptr_cout[i]->calculerCout(nombreJour);
+                        E.afficherCout();
+                    }
+                }
+                if (typeMachine = 3) {
+                    eau e;
+                    for (int i = 0; i < index_ptr_cout; ++i) {
+                        e.afficherCout();
+                    }
+                }
             }
-                break;
-            case 5: {
-                fin = true;
-                std::cout << "Au revoir !";
+                    break;
+                    case 5: {
+                        fin = true;
+                        std::cout << "Au revoir !";
+                    }
+                    break;
+                    default:
+                        std::cout << "Mauvais choix!";
+
             }
-                break;
-            default:
-                std::cout << "Mauvais choix!";
-        };
+                for (int i = 0; i < (index_ptr_cout - 1); i++) {
+                    delete ptr_cout[i];
+                }
+                return 0;
+        }
     }
-    for (int i = 0; i < (index_ptr_cout - 1); i++) {
-        delete ptr_cout[i];
-    }
-    return 0;
-}
     void presenterMenu() {
         std::cout << "-------------------------MENU PRINCIPAl--------------------------" << std::endl;
         std::cout << "" << std::endl;

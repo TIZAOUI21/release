@@ -14,7 +14,9 @@ using namespace std;
 double cout::calculerCout(int nombreJour) {
         return 0.0;
     }
- void afficherCout();
+ void afficherCout(){
+
+    }
 
 
 

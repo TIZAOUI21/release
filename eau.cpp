@@ -18,6 +18,6 @@ double eau::calculerCout(int nombreJour){
     return prix;
 }
 void eau::afficherCout(){
-    std::cout << getNom()<<":"<<"calculerCout()"<<"$"<<std::endl;
+    std::cout << getNom()<<":"<<calculerCout()<<"$"<<std::endl;
 }
 

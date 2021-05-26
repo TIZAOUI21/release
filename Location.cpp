@@ -14,7 +14,7 @@ location::~location(){};
         return prix;
     }
         void location::afficherCout( ) {
-            std::cout << getNom() << ":" << "calculerCout() "<< "$" << std::endl;
+            std::cout << getNom() << ":" << calculerCout()<< "$" << std::endl;
         }
 
 
