@@ -11,11 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02d0376b-9a8a-4f33-91f0-fd545d1af3d1" name="Default Changelist" comment="mise a jour de menu et changement de creation de tableau, correction de héritage et affichage menu">
+    <list default="true" id="02d0376b-9a8a-4f33-91f0-fd545d1af3d1" name="Default Changelist" comment="ajout des fonctions dans les classe et suppression des elements non necessaire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Location.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Location.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/electricite.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/electricite.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/release.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cout.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cout.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cout.h" beforeDir="false" afterPath="$PROJECT_DIR$/cout.h" afterDir="false" />
@@ -58,11 +56,13 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="release" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="release" TARGET_NAME="release" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="release" RUN_TARGET_NAME="release">
@@ -88,7 +88,8 @@
       <workItem from="1621571030157" duration="510000" />
       <workItem from="1621572996117" duration="2743000" />
       <workItem from="1621829102086" duration="13347000" />
-      <workItem from="1621865932389" duration="25131000" />
+      <workItem from="1621865932389" duration="25298000" />
+      <workItem from="1621985238839" duration="11078000" />
     </task>
     <task id="LOCAL-00001" summary="creation des classe">
       <created>1620851206531</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621875695066</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout des fonctions dans les classe et suppression des elements non necessaire">
+      <created>1621913599039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621913599039</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +157,7 @@
     <MESSAGE value="cinfigutation des attribus de classes" />
     <MESSAGE value="heritage des classe avec fonction calculer cout" />
     <MESSAGE value="mise a jour de menu et changement de creation de tableau, correction de héritage et affichage menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise a jour de menu et changement de creation de tableau, correction de héritage et affichage menu" />
+    <MESSAGE value="ajout des fonctions dans les classe et suppression des elements non necessaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des fonctions dans les classe et suppression des elements non necessaire" />
   </component>
 </project>

@@ -2,14 +2,16 @@
 #include <string>
 #include "cout.h"
 
-class eau : public cout{
+class eau : public cout {
 private:
-    float DebitMachine;
-    int CoutEau;
+    float DebitMachine=0;
+    float CoutEau=0;
 public:
     eau();
-    eau(std::string nomMachine, float DebitMachine, int CoutEau);
+    eau(std::string nomMachine, float DebitMachine, float CoutEau);
     ~eau();
-
     double calculerCout(int nombreJour);
     void afficherCout();
+
+
+};
